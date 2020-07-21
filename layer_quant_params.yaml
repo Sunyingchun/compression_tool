@@ -1,0 +1,3120 @@
+bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer1.0.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer1.0.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer1.0.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer1.0.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer1.0.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer1.0.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer1.0.downsample.0:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer1.0.downsample.1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer1.1.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer1.1.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer1.1.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer1.1.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer1.1.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer1.1.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer1.2.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer1.2.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer1.2.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer1.2.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer1.2.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer1.2.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.0.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.0.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.0.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.0.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.0.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.0.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.0.downsample.0:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.0.downsample.1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.1.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.1.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.1.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.1.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.1.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.1.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.2.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.2.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.2.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.2.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.2.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.2.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.3.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.3.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.3.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.3.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.3.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.3.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.4.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.4.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.4.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.4.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.4.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.4.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.5.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.5.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.5.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.5.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.5.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.5.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.6.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.6.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.6.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.6.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.6.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.6.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.7.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.7.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.7.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.7.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.7.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.7.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.8.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.8.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.8.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.8.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.8.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.8.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.9.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.9.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.9.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.9.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.9.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.9.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.10.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.10.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.10.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.10.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.10.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.10.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.11.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.11.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.11.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.11.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.11.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.11.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.12.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.12.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.12.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.12.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.12.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer2.12.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.0.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.0.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.0.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.0.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.0.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.0.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.0.downsample.0:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.0.downsample.1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.1.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.1.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.1.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.1.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.1.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.1.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.2.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.2.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.2.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.2.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.2.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.2.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.3.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.3.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.3.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.3.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.3.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.3.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.4.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.4.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.4.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.4.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.4.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.4.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.5.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.5.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.5.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.5.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.5.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.5.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.6.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.6.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.6.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.6.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.6.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.6.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.7.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.7.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.7.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.7.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.7.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.7.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.8.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.8.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.8.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.8.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.8.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.8.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.9.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.9.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.9.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.9.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.9.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.9.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.10.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.10.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.10.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.10.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.10.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.10.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.11.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.11.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.11.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.11.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.11.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.11.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.12.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.12.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.12.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.12.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.12.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.12.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.13.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.13.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.13.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.13.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.13.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.13.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.14.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.14.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.14.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.14.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.14.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.14.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.15.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.15.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.15.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.15.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.15.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.15.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.16.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.16.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.16.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.16.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.16.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.16.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.17.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.17.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.17.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.17.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.17.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.17.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.18.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.18.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.18.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.18.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.18.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.18.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.19.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.19.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.19.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.19.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.19.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.19.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.20.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.20.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.20.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.20.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.20.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.20.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.21.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.21.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.21.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.21.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.21.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.21.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.22.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.22.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.22.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.22.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.22.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.22.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.23.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.23.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.23.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.23.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.23.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.23.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.24.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.24.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.24.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.24.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.24.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.24.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.25.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.25.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.25.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.25.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.25.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.25.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.26.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.26.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.26.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.26.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.26.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.26.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.27.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.27.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.27.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.27.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.27.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.27.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.28.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.28.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.28.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.28.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.28.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.28.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.29.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.29.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.29.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.29.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.29.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer3.29.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer4.0.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer4.0.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer4.0.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer4.0.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer4.0.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer4.0.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer4.0.downsample.0:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer4.0.downsample.1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer4.1.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer4.1.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer4.1.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer4.1.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer4.1.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer4.1.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer4.2.bn1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer4.2.conv1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer4.2.bn2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer4.2.relu:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer4.2.conv2:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+layer4.2.bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+bn3:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+dp:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+fc1:
+  bits_activations: 8
+  bits_weights: 8
+  bits_bias: 32
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+ft1:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+bn4:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
+l2:
+  bits_activations: 8
+  bits_weights: null
+  bits_bias: null
+  mode: SYMMETRIC
+  clip_acts: NONE
+  clip_n_stds: null
+  per_channel_wts: false
+  fp16: true
+  scale_approx_mult_bits: null
