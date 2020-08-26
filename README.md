@@ -5,19 +5,19 @@ A compression tool for minivision
 * commen_utils: 一些常用的工具方法  
 * commen_utils: 一些常用的工具方法
 * data: 存放测试数据集和训练数据集，以及需要的pair list
-*model_define: 存放待剪枝的模型定义文件
-*pruning_analysis_tools: 两个剪枝分析工具，auto_make_yaml.py根据得到的csv文件自动生成yaml配置文件,plot_csv.py根据csv文件画出敏感度折线图。
-*test_module:  存放不同的测试模块（计算精度，ROC等）
-*train_module: 存放不同的训练模块
-*work_space: 存放各种模型文件，模型定义文件，以及敏感度分析数据(csv文件)
-*yaml_file: 存放自动生成的yaml文件
-*dataloader.py: 数据多线程批加载
-*main.py: 主程序入口
-*prune.sh: 剪枝脚本
-*pruning.py: 剪枝相关代码
-*quantization.py:  量化相关代码
-*quantization.sh: 量化运行脚本
-*sensitivity_analysis.py: 敏感度分析，生成csv文件
+* model_define: 存放待剪枝的模型定义文件
+* pruning_analysis_tools: 两个剪枝分析工具，auto_make_yaml.py根据得到的csv文件自动生成yaml配置文件,plot_csv.py根据csv文件画出敏感度折线图。
+* test_module:  存放不同的测试模块（计算精度，ROC等）
+* train_module: 存放不同的训练模块
+* work_space: 存放各种模型文件，模型定义文件，以及敏感度分析数据(csv文件)
+* yaml_file: 存放自动生成的yaml文件
+* dataloader.py: 数据多线程批加载
+* main.py: 主程序入口
+* prune.sh: 剪枝脚本
+* pruning.py: 剪枝相关代码
+* quantization.py:  量化相关代码
+* quantization.sh: 量化运行脚本
+* sensitivity_analysis.py: 敏感度分析，生成csv文件
 
 ## 剪枝运行流程  
 *准备阶段：本工具运行需要安装distiller，安装文件位于Distiller，在Distiller目录下打开命令行，运行python setup.py install。准备模型定义文件放入model_define文件下，准备训练最高精度的pt文件放在work_space/model_train_best下，准备测试集放在data下以及测试集测试代码放在test_module下。
