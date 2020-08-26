@@ -1,6 +1,14 @@
 # compression_tool
 A compression tool for minivision
 
+## Install
+git clone https://github.com/BlossomingL/Distiller  
+git clone https://github.com/BlossomingL/compression_tool  
+
+安装Distiller：在Distiller文件下，python setup.py install  
+
+环境：pytorch 1.X  
+
 ## 程序文件列表和文件功能  
 * commen_utils: 一些常用的工具方法  
 * commen_utils: 一些常用的工具方法
