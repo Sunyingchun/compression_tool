@@ -68,3 +68,9 @@ python pruning.py --mode prune \
     * 针对公司Block的第一层为BN层，源代码本身不支持对此层剪枝，更改后可支持。具体函数为handle_bn_layers_bn1。
 * distiller/pruning/ranked_structures_pruner.py下添加了fpgm算法。具体代码为rank_and_prune_filters函数中if fpgm开始到if结束。
 * distiller/summary_graph下更改源码一处BUG，在add_footprint_attr函数下加入try/catch模块
+* 增加CVPR 2020 HRank剪枝方法  
+
+## 参考
+[1] HRank：https://arxiv.org/abs/2002.10179  
+[2] FPGM: https://arxiv.org/abs/1811.00250  
+[3] Distiller: https://github.com/NervanaSystems/distiller
