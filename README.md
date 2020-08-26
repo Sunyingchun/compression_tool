@@ -52,7 +52,7 @@ python pruning.py --mode prune \
 运行后会生成一个剪枝后的模型文件，保存在work_space/pruned_model，文件名与模型名称一致，并且还会打印出每层的out参数，此参数即剪枝后模型定义文件中的keep数组。  
 
 ## 关于distiller  
-由于此工具硬剪枝部分(即真正将通道移除)的代码是采用distiller框架中的代码，因为公司模型的特殊，需要更改框架源码才能进行剪枝，下面对更改的部分说明：
+由于此工具硬剪枝部分(即真正将通道移除)的代码是采用distiller框架中的代码，因为模型的特殊，需要更改框架源码才能进行剪枝，下面对更改的部分说明：
 * distiller/apputils下的data_loaders.py文件classification_get_input_shape函数中dataset与yaml文件中dataset参数的值一样，例如：如果输入网络图像大小为80x80那么yaml文件中的dataset参数也就是80x80，如果需要添加其它类型的输入，那么就要更改此代码。
 * distiller/policy.py下添加了fpgm的参数选项
 * distiller/thinning.py下添加了两个个功能：
