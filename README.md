@@ -20,9 +20,9 @@ A compression tool for minivision
 * sensitivity_analysis.py: 敏感度分析，生成csv文件
 
 ## 剪枝运行流程  
-*准备阶段：本工具运行需要安装distiller，安装文件位于Distiller，在Distiller目录下打开命令行，运行python setup.py install。准备模型定义文件放入model_define文件下，准备训练最高精度的pt文件放在work_space/model_train_best下，准备测试集放在data下以及测试集测试代码放在test_module下。
+* 准备阶段：本工具运行需要安装distiller，安装文件位于Distiller，在Distiller目录下打开命令行，运行python setup.py install。准备模型定义文件放入model_define文件下，准备训练最高精度的pt文件放在work_space/model_train_best下，准备测试集放在data下以及测试集测试代码放在test_module下。
 
-*敏感度分析: 运行pruning.py文件，例如对resnet100进行剪枝敏感度分析，sh脚本如下
+* 敏感度分析: 运行pruning.py文件，例如对resnet100进行剪枝敏感度分析，sh脚本如下
 
 ```python
 python pruning.py --mode sa \         # sa(sensitivity analysis)表示进入敏感度分析模式
@@ -33,11 +33,11 @@ python pruning.py --mode sa \         # sa(sensitivity analysis)表示进入敏�
                   --img_list_label_path   # pair list路径 data/test_data/fc_0.4_112x112/pair_list/id_life_image_list_bmppair.txt \
                   --fpgm \ # 采用fpgm算法剪枝
                   --data_source company # 数据集来源
-运行过后会生成一个csv文件，在work_space/sensitivity_data下
 ```
-*生成yaml文件: 运行pruning_analysis_tools下的auto_make_yaml.py文件，其中config_yaml函数的参数需要自己配置，参数1：csv文件路径，参数2：期望剪枝后的精度，参数3：模型名称，比如上述resnet100,那么此参数为resnet100，参数4: 输入图像大小。运行后会在yaml_file文件夹下生成一个yaml文件。
+运行过后会生成一个csv文件，在work_space/sensitivity_data下
+* 生成yaml文件: 运行pruning_analysis_tools下的auto_make_yaml.py文件，其中config_yaml函数的参数需要自己配置，参数1：csv文件路径，参数2：期望剪枝后的精度，参数3：模型名称，比如上述resnet100,那么此参数为resnet100，参数4: 输入图像大小。运行后会在yaml_file文件夹下生成一个yaml文件。
 
-*剪枝：运行pruning.py文件，例如对resnet100进行剪枝，sh脚本如下
+* 剪枝：运行pruning.py文件，例如对resnet100进行剪枝，sh脚本如下
 ```python
 python pruning.py --mode prune \
                   --model resnet100 \
@@ -53,10 +53,10 @@ python pruning.py --mode prune \
 
 ## 关于distiller  
 由于此工具硬剪枝部分(即真正将通道移除)的代码是采用distiller框架中的代码，因为公司模型的特殊，需要更改框架源码才能进行剪枝，下面对更改的部分说明：
-*distiller/apputils下的data_loaders.py文件classification_get_input_shape函数中dataset与yaml文件中dataset参数的值一样，例如：如果输入网络图像大小为80x80那么yaml文件中的dataset参数也就是80x80，如果需要添加其它类型的输入，那么就要更改此代码。
-*distiller/policy.py下添加了fpgm的参数选项
-*distiller/thinning.py下添加了两个个功能：
+* distiller/apputils下的data_loaders.py文件classification_get_input_shape函数中dataset与yaml文件中dataset参数的值一样，例如：如果输入网络图像大小为80x80那么yaml文件中的dataset参数也就是80x80，如果需要添加其它类型的输入，那么就要更改此代码。
+* distiller/policy.py下添加了fpgm的参数选项
+* distiller/thinning.py下添加了两个个功能：
     • 能够剪PReLU层，具体函数为handle_prelu_layers，append_prelu_thinning_directive(注：如果PReLU层采用默认的参数1，那么需要将此代码注释掉，否则会出错)
     • 针对公司Block的第一层为BN层，源代码本身不支持对此层剪枝，更改后可支持。具体函数为handle_bn_layers_bn1。
-*distiller/pruning/ranked_structures_pruner.py下添加了fpgm算法。具体代码为rank_and_prune_filters函数中if fpgm开始到if结束。
-*distiller/summary_graph下更改源码一处BUG，在add_footprint_attr函数下加入try/catch模块
+* distiller/pruning/ranked_structures_pruner.py下添加了fpgm算法。具体代码为rank_and_prune_filters函数中if fpgm开始到if结束。
+* distiller/summary_graph下更改源码一处BUG，在add_footprint_attr函数下加入try/catch模块
