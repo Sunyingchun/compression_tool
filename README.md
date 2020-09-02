@@ -1,5 +1,5 @@
 # compression_tool
-A compression tool for minivision
+A compression tool based on distiller.
 
 ## Install
 git clone https://github.com/BlossomingL/Distiller  
