@@ -30,10 +30,10 @@ git clone https://github.com/BlossomingL/compression_tool
 ## 剪枝运行流程  
 * 准备阶段：本工具运行需要安装distiller，安装文件位于Distiller，在Distiller目录下打开命令行，运行python setup.py install。准备模型定义文件放入model_define文件下，准备训练最高精度的pt文件放在work_space/model_train_best下，准备测试集放在data下以及测试集测试代码放在test_module下。
 
-* 敏感度分析: 运行pruning.py文件，例如对resnet100进行剪枝敏感度分析，sh脚本如下
+* 敏感度分析: main.py文件，例如对resnet100进行剪枝敏感度分析，sh脚本如下
 
 ```python
-python pruning.py --mode sa \         # sa(sensitivity analysis)表示进入敏感度分析模式
+python main.py --mode sa \         # sa(sensitivity analysis)表示进入敏感度分析模式
                   --model resnet100 \  # 模型名称，只能从固定的几个选择
                   --best_model_path work_space/model_train_best/2019-09-29-11-37_SVGArcFace-O1-b0.4s40t1.1_fc_0.4_112x112_2019-09-27-Adult-padSY-Bus_fResNet100v3cv-d512_model_iter-340000.pth \   # 训练好的模型文件
                   --from_data_parallel \  # 上面的模型文件是否是多卡训练得到
@@ -47,7 +47,7 @@ python pruning.py --mode sa \         # sa(sensitivity analysis)表示进入敏�
 
 * 剪枝：运行pruning.py文件，例如对resnet100进行剪枝，sh脚本如下
 ```python
-python pruning.py --mode prune \
+python main.py --mode prune \
                   --model resnet100 \
                   --best_model_path work_space/model_train_best/2019-09-29-11-37_SVGArcFace-O1-b0.4s40t1.1_fc_0.4_112x112_2019-09-27-Adult-padSY-Bus_fResNet100v3cv-d512_model_iter-340000.pth \
                   --from_data_parallel \
